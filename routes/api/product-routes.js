@@ -5,17 +5,17 @@ const { Product, Category, Tag, ProductTag } = require('../../models');
 
 // get all products
 router.get('/', (req, res) => {
-  // find all products
+  //todo find all products
   // be sure to include its associated Category and Tag data
 });
 
 // get one product
 router.get('/:id', (req, res) => {
-  // find a single product by its `id`
+  //todo find a single product by its `id`
   // be sure to include its associated Category and Tag data
 });
 
-// create new product
+//todo create new product
 router.post('/', (req, res) => {
   /* req.body should look like this...
     {
@@ -90,7 +90,7 @@ router.put('/:id', (req, res) => {
 });
 
 router.delete('/:id', (req, res) => {
-  // delete one product by its `id` value
+  //todo delete one product by its `id` value
 });
 
 module.exports = router;
