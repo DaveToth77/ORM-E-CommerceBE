@@ -163,6 +163,4 @@ router.delete('/:id', (req, res) => {
 });
 
 module.exports = router;
-© 2021 GitHub, Inc.
-Terms
-Privacy
+
